@@ -1,7 +1,36 @@
-section.big.section {
-    background-image: url("../images/background.jpg"); 
-    color: white;
+body {
+    margin: 0;
 }
+
+.navbar img {
+    height: 30px;
+}
+
+div.explore {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+section.big-section {
+    background-image: url("../images/background.jpg"); 
+    background-size: contain;
+    height: 400;
+    color: white;
+
+}
+
+section.features {
+
+}
+
+section.kanye {
+
+}
+
+
 
 header {
     background-color: white;
@@ -15,16 +44,7 @@ nav.pos_right {
     background: white;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-}
-
-.box {
-    background: white;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    color: black;
-    font-weight: bold;
 }
