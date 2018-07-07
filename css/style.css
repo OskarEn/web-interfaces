@@ -1,0 +1,30 @@
+section.big.section {
+    background-image: url("../images/background.jpg"); 
+    color: white;
+}
+
+header {
+    background-color: white;
+}
+
+nav.pos_right {
+    left: 100px;
+}
+
+.container {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
