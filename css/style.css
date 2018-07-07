@@ -1,50 +1,158 @@
 body {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    background-color: white;
 }
 
-.navbar img {
-    height: 30px;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 25px;
+  }
+  
+  header img {
+    height: 75%;
+  }
+  
+  header a {
+    margin-left: 25px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00c76f;
+    text-underline-position: under;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+container a {
+    margin-left: 25px;
+    color: black;
+    text-decoration: none;
+  }
+
 
 div.explore {
     margin: 20px;
     padding: 20px;
     text-align: center;
     color: white;
+}
+
+.explore h1 {
     font-weight: bold;
+}
+.explore p {
+    font-weight: ligher;
 }
 
 section.big-section {
-    background-image: url("../images/background.jpg"); 
-    background-size: contain;
-    height: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 768px;
     color: white;
+  }
 
+.big-section h1 {
+font-size: 80px;
+margin-top: 0;
+margin-bottom: 40px;
+}
+
+.big-section p {
+font-size: 30px;
 }
 
 section.features {
-
+    text-align: center;
 }
 
-section.kanye {
-
+.features ul {
+display: flex;
+justify-content: space-around;
+margin-top: 7%;
+margin-bottom: 7%;
 }
 
-
-
-header {
-    background-color: white;
+.features h3 {
+    color: #00c76f;
+    font-size: 30px;
 }
 
-nav.pos_right {
-    left: 100px;
+.features li {
+width: 20%;
 }
 
-.container {
-    background: white;
+.features p {
+font-size: 25px;
+}
+
+.features img {
+width: 50%;
+margin-bottom: 0;
+}
+
+.kanye {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin: 3%;
+    padding: 6%;
+    background-color: #00c76f;
+    color: white;
+}
+
+.kanye img {
+    width: 30%;
+}
+
+.kanye ul {
+    width: 50%;
+}
+
+.kanye li {
+    margin-bottom: 10%;
+}
+
+.kanye h2 {
+    margin-top: 0;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-align: left;
+}
+
+.kanye h3 {
+    font-size: 30px;
+}
+
+.kanye p {
+    font-size: 23px;
 }
